@@ -1,0 +1,22 @@
+[project]
+name = "team1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Deff1ro",email = "s.deffiro@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<3.10"
+dependencies = [
+    "numpy (==1.23.0)",
+    "scikit-learn (==1.1.2)",
+    "dash (==4.4.1)",
+    "matplotlib (==3.9.4)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+[tool.poetry]
+package-mode = false
